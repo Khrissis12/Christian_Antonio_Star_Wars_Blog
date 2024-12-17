@@ -1,0 +1,151 @@
+html{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/80/Backgorund.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.char-img{
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+footer{
+  margin-top: 50px;
+  display: block;
+  position:absolute;
+  right: 46%;
+}
+
+.brand{
+justify-content: center;
+align-content: center;
+max-height: 800px;
+max-width: 1000px;
+right: 10%; 
+}
+
+h1{
+margin-bottom: 10px;
+color: rgb(210, 225, 225);
+text-shadow: 2px 5px 5px red;
+}
+
+ul{
+display: flex;
+margin-top: -30px;
+}
+
+.navbar-brand{
+margin-left: -120px;
+margin-bottom: 70px;
+}
+
+.nav-item{
+font-size: 50px;
+margin-top: 50px;
+margin-left: 15px;
+margin-right: 20px;
+font-family:monospace;
+}
+
+.link{
+color: rgb(197, 204, 211);
+text-shadow: 5px 5px 5px red;
+}
+
+.card {
+  display: flex;
+  width: 320px;
+  height: 570px;
+  border-radius: 15px;
+  padding: 1.5rem;
+  background: rgba(95, 86, 95, 0.728);
+  position: relative;
+  align-items: center;
+  transition: 0.4s ease-in-out;
+  box-shadow: 0px 10px 30px rgba(213, 50, 50, 0.573);
+  color: aliceblue;
+
+}
+.card:hover {
+  transform: translateY(10px);
+  box-shadow: 0px 5px 5px rgb(99, 180, 255);
+  background-color: rgba(240, 248, 255, 0.43);
+}
+.card:hover:before {
+  opacity: 0.5;
+}
+
+.card:hover .info {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.card:before {
+  position: absolute;
+  display: block;
+  border-radius: 15px;
+  background: rgba(37, 37, 37, 0.6);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: 800;
+}
+.card > button {
+  font-size: 40px;
+  padding: 0.6rem;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.card .button:hover {
+  background: dodgerblue;
+  color: white;
+}
+
+
+.jumbotron{
+background-color: rgba(128, 128, 128, 0.56);
+padding: 5px;
+border-radius: 10px;
+color: white;
+}
+
+.char-name:hover{
+cursor: pointer;
+}
+
